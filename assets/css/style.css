@@ -1,0 +1,51 @@
+
+/* color */
+
+.Teal{
+  color: #4aaaa5;
+}
+.gray{
+  background-color: #666666;
+}
+
+body {
+  padding-top: 70px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  background-image: url("../images/gplaypattern.png");
+}
+
+
+h2{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  border-bottom: 3px solid #777777;
+}
+
+#main, #sidebar{
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  margin: 0px 0px 150px 0px;
+  padding: 0 25px 25px 25px;
+}
+.links{
+padding: 0 10px;
+
+}
+.image{
+  padding: 0;
+}
+
+#Stackoverflow{
+  width: 90%;
+  margin: 5%;
+}
+
+.footer{
+  text-align: center;
+  border-top: 10px solid #4aaaa5;
+  padding: 20px;
+  background-color: #666666;
+}
