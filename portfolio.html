@@ -2,65 +2,102 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="http://bootswatch.com/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 
 <body>
-<div id="headerBG"></div>
-<div class="wrapper">
-  <header>
-      <h1>Martin Ade</h1>
-        <a class="nav" id="textContact" href="contact.html">Contact</a>
-        <div class="nav">|</div>
-        <a class="nav" href="portfolio.html">Portfolio</a>
-        <div class="nav">|</div>
-        <a class="nav" id="index" href="index.html">About</a>
-  </header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
 
-    <div class="main">
+                <a class="navbar-brand" href="#"><img id="logo" alt="Brand" src="assets\images\ADE_Logo_3_W.png">
+                </a>
 
-        <h2>Portfolio</h2>
-        <div class="port">
-          <p>
-          </p>
+                <h5 class="navbar-text">MARTIN ADE</h5>
 
-          <a href="#"><img id="hangman" src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman"><h3>Hangman</h3></a>
+            </div>
+            <ul class="nav nav-pills navbar-right container-fluid footer">
+                <li role="presentation"><a href="index.html">About</a></li>
+                <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+                <li role="presentation"><a href="contact.html">Contact</a></li>
+            </ul>
 
-          <a href="#"><img id="rpg" src="assets/images/technics-q-c-640-480-2.jpg" alt="rpg"><h4>RPG Game</h4></a>
+        </div>
+    </nav>
 
-          <a href="#"><img id="trivia" src="assets/images/technics-q-c-640-480-3.jpg" alt="trivia"><h3>Trivia Game</h3></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="jumbotron" id="main">
+                    <div class="header">
+                        <h2>Portfolio</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="#"><img class="img-responsive center-block image" id="hangman" src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+                                <h4>Hangman</h4></a>
 
-          <a href="#"><img id="widgit" src="assets/images/technics-q-c-640-480-5.jpg" alt="widgit"><h4>Rutgers Info widgit</h4></a>
+                            <a href="#"><img class="img-responsive center-block image" id="rpg" src="assets/images/technics-q-c-640-480-2.jpg" alt="rpg">
+                                <h4>RPG Game</h4></a>
 
-          <a href="#"><img id="rps" src="assets/images/technics-q-c-640-480-7.jpg" alt="rps"><h3>Rock Paper Scissors</h3></a>
+                            <a href="#"><img class="img-responsive center-block image" id="trivia" src="assets/images/technics-q-c-640-480-3.jpg" alt="trivia">
+                                <h4>Trivia Game</h4></a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#"><img class="img-responsive center-block image" id="widgit" src="assets/images/technics-q-c-640-480-5.jpg" alt="widgit">
+                                <h4>Rutgers Info widgit</h4></a>
 
-      </div>
+                            <a href="#"><img class="img-responsive center-block image" id="rps" src="assets/images/technics-q-c-640-480-7.jpg" alt="rps">
+                                <h4>Rock Paper Scissors</h4></a>
+                        </div>
 
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="jumbotron box" id="sidebar">
+                    <div class="header">
+                        <h2>Connect With Me</h2>
+                    </div>
+                    <div class="row">
+                        <div class="container links">
+
+                            <div class="col-xs-4 image">
+                                <a href="https://github.com/maade7">
+                                    <img class="img-responsive center-block" id="Github" src="assets/images/1485595997_github.png" alt="Github"></a>
+                            </div>
+                            <div class="col-xs-4 image">
+                                <a href="https://www.linkedin.com/in/martin-ade/">
+                                    <img class="img-responsive center-block" id="Linkedin" src="assets/images/1485595932_linkedin.png" alt="Linkedin"></a>
+                            </div>
+                            <div class="col-xs-4 image">
+                                <a href="http://stackoverflow.com/users/7255146/maade">
+                                    <img class="img-responsive center-block" id="Stackoverflow" src="assets/images/1485595966_stackoverflow.png" alt="Stackoverflow"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
     </div>
 
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container container-fluid footer">
+            <p>© Copyright 2017 Martin Ade</p>
+        </div>
+    </nav>
 
-    <div class="sidebar">
 
-      <h2>Connect With Me</h2>
-
-      <a href="https://github.com/maade7"><img id="Github"   src="assets/images/1485595997_github_square_black.png" onmouseover="this.src='assets/images/1485595997_github_square_black_hover.png'"
-      onmouseout="this.src='assets/images/1485595997_github_square_black.png'" alt="Github"></a>
-
-      <a href="https://www.linkedin.com/in/martin-ade/"><img id="Linkedin" src="assets/images/1485595932_linkedin_square_color.png" onmouseover="this.src='assets/images/1485595932_linkedin_square_color_hover.png'"
-      onmouseout="this.src='assets/images/1485595932_linkedin_square_color.png'" alt="Linkedin"></a>
-
-      <a href="http://stackoverflow.com/users/7255146/maade"><img id="Stackoverflow" src="assets/images/1485595966_stackoverflow.png" onmouseover="this.src='assets/images/1485595966_stackoverflow_hover.png'"
-      onmouseout="this.src='assets/images/1485595966_stackoverflow.png'" alt="Stackoverflow"></a>
-
-    </div>
-  <div class="push"></div>
-</div>
-<div class="footer">
-    <p>© Copyright 2017 Martin Ade</p>
-</div>
 </body>
 
 
