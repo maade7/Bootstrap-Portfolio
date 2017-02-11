@@ -1,6 +1,18 @@
+@keyframes background {
+    0% {
+        top: 200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
 body {
     padding-top: 15rem;
+    position: relative;
     background-image: url("../images/cartographer_D.png");
+    animation-name: background;
+    animation-duration: .5s;
 }
 
 h2 {
