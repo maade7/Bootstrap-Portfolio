@@ -1,11 +1,11 @@
-@keyframes background {
-    0% {
-        top: 200px;
-    }
-    100% {
-        top: 0px;
-    }
-}
+/*@keyframes background {*/
+    /*0% {*/
+        /*top: 200px;*/
+    /*}*/
+    /*100% {*/
+        /*top: 0px;*/
+    /*}*/
+/*}*/
 
 body {
     padding-top: 15rem;
